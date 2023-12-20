@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Amplify</title>
+</head>
+
+<body>
+  <main>
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #6A5ACD">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class="" src="./assets/Logo.jpeg" alt="Audify" width="30" height="24"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Favourites</a>
+            <a class="nav-link" href="#">Playlists</a>
+            <a class="nav-link" href="#">Chronology</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Settings</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- gallery di card-musicali -->
+
+    <div class="row music-gallery px-5 my-first-row">
+      <div class="music-card-thumb p-4 col-md-3 col-sm-6 col-xs-12">
+        <div class="card shadow-sm" style="width: 18rem;">
+          <img src="./assets/mastodon.jpeg" class="card-img-top" alt="crack the skye mastodon">
+          <div class="card-body">
+            <h2 class="card-title">MASTODON</h2>
+            <p class="card-text">Crack the Skye (2009)</p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-dark btn-sm" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop">
+              show album
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Crack The Skye</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <ol>
+                      <li>"Oblivion" - 5:46</li>
+                      <li>"Divinations" - 3:38</li>
+                      <li>"Quintessence" - 5:27</li>
+                      <li>"Ghost of Karelia" Sanders 5:24</li>
+                      <li>"Crack the Skye" - 5:54</li>
+                      <li>"The Last Baron" - 13:00</li>
+                    </ol>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary btn-sm"
+                      data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="music-card-thumb p-4 col-md-3 col-sm-6 col-xs-12">
+        <div class="card shadow-sm" style="width: 18rem;">
+          <img src="./assets/baroness.jpeg" class="card-img-top" alt="yellow and green baroness">
+          <div class="card-body">
+            <h2 class="card-title">BARONESS</h2>
+            <p class="card-text">Yellow & Green (2012)</p>
+                       <!-- Button trigger modal -->
+                       <button type="button" class="btn btn-outline-dark btn-sm" data-bs-toggle="modal"
+                       data-bs-target="#staticBackdrop">
+                       show album
+                     </button>
+         
+                     <!-- Modal -->
+                     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                       aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                       <div class="modal-dialog">
+                         <div class="modal-content">
+                           <div class="modal-header">
+                             <h5 class="modal-title" id="staticBackdropLabel">Crack The Skye</h5>
+                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                           </div>
+                           <div class="modal-body">
+                             <ol>
+                               <li>"Oblivion" - 5:46</li>
+                               <li>"Divinations" - 3:38</li>
+                               <li>"Quintessence" - 5:27</li>
+                               <li>"Ghost of Karelia" Sanders 5:24</li>
+                               <li>"Crack the Skye" - 5:54</li>
+                               <li>"The Last Baron" - 13:00</li>
+                             </ol>
+                           </div>
+                           <div class="modal-footer">
+                             <button type="button" class="btn btn-outline-secondary btn-sm"
+                               data-bs-dismiss="modal">Close</button>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+          
+          </div>
+        </div>
+      </div>
+      <div class="music-card-thumb p-4 col-md-3 col-sm-6 col-xs-12">
+        <div class="card shadow-sm" style="width: 18rem;">
+          <img src="./assets/led zeppelin.jpeg" class="card-img-top" alt="house of the holy led zeppelin">
+          <div class="card-body">
+            <h2 class="card-title">LED ZEPPELIN</h2>
+            <p class="card-text">House of the Holy (1973)</p>
+
+                       <!-- Button trigger modal -->
+                       <button type="button" class="btn btn-outline-dark btn-sm" data-bs-toggle="modal"
+                       data-bs-target="#staticBackdrop">
+                       show album
+                     </button>
+         
+                     <!-- Modal -->
+                     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                       aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                       <div class="modal-dialog">
+                         <div class="modal-content">
+                           <div class="modal-header">
+                             <h5 class="modal-title" id="staticBackdropLabel">Crack The Skye</h5>
+                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                           </div>
+                           <div class="modal-body">
+                             <ol>
+                               <li>"Oblivion" - 5:46</li>
+                               <li>"Divinations" - 3:38</li>
+                               <li>"Quintessence" - 5:27</li>
+                               <li>"Ghost of Karelia" Sanders 5:24</li>
+                               <li>"Crack the Skye" - 5:54</li>
+                               <li>"The Last Baron" - 13:00</li>
+                             </ol>
+                           </div>
+                           <div class="modal-footer">
+                             <button type="button" class="btn btn-outline-secondary btn-sm"
+                               data-bs-dismiss="modal">Close</button>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+          
+
+          </div>
+        </div>
+      </div>
+      <div class="music-card-thumb p-4 col-md-3 col-sm-6 col-xs-12">
+        <div class="card shadow-sm" style="width: 18rem;">
+          <img src="./assets/raisedbyswans.jpeg" class="card-img-top" alt="no ghosless place raised by swans">
+          <div class="card-body">
+            <h2 class="card-title">RAISED BY SWANS</h2>
+            <p class="card-text">No Ghosless Place (2010)</p>
+
+                       <!-- Button trigger modal -->
+                       <button type="button" class="btn btn-outline-dark btn-sm" data-bs-toggle="modal"
+                       data-bs-target="#staticBackdrop">
+                       show album
+                     </button>
+         
+                     <!-- Modal -->
+                     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                       aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                       <div class="modal-dialog">
+                         <div class="modal-content">
+                           <div class="modal-header">
+                             <h5 class="modal-title" id="staticBackdropLabel">Crack The Skye</h5>
+                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                           </div>
+                           <div class="modal-body">
+                             <ol>
+                               <li>"Oblivion" - 5:46</li>
+                               <li>"Divinations" - 3:38</li>
+                               <li>"Quintessence" - 5:27</li>
+                               <li>"Ghost of Karelia" Sanders 5:24</li>
+                               <li>"Crack the Skye" - 5:54</li>
+                               <li>"The Last Baron" - 13:00</li>
+                             </ol>
+                           </div>
+                           <div class="modal-footer">
+                             <button type="button" class="btn btn-outline-secondary btn-sm"
+                               data-bs-dismiss="modal">Close</button>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- second row -->
+    <div class="row music-gallery px-5 my-first-row">
+      <div class="music-card-thumb p-4 col-md-3 col-sm-6 col-xs-12">
+        <div class="card shadow-sm" style="width: 18rem;">
+          <img src="./assets/mastodon.jpeg" class="card-img-top" alt="crack the skye mastodon">
+          <div class="card-body">
+            <h2 class="card-title">MASTODON</h2>
+            <p class="card-text">Crack the Skye (2009)</p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-dark btn-sm" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop">
+              show album
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Crack The Skye</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <ol>
+                      <li>"Oblivion" - 5:46</li>
+                      <li>"Divinations" - 3:38</li>
+                      <li>"Quintessence" - 5:27</li>
+                      <li>"Ghost of Karelia" Sanders 5:24</li>
+                      <li>"Crack the Skye" - 5:54</li>
+                      <li>"The Last Baron" - 13:00</li>
+                    </ol>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary btn-sm"
+                      data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="music-card-thumb p-4 col-md-3 col-sm-6 col-xs-12">
+        <div class="card shadow-sm" style="width: 18rem;">
+          <img src="./assets/baroness.jpeg" class="card-img-top" alt="yellow and green baroness">
+          <div class="card-body">
+            <h2 class="card-title">BARONESS</h2>
+            <p class="card-text">Yellow & Green (2012)</p>
+                       <!-- Button trigger modal -->
+                       <button type="button" class="btn btn-outline-dark btn-sm" data-bs-toggle="modal"
+                       data-bs-target="#staticBackdrop">
+                       show album
+                     </button>
+         
+                     <!-- Modal -->
+                     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                       aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                       <div class="modal-dialog">
+                         <div class="modal-content">
+                           <div class="modal-header">
+                             <h5 class="modal-title" id="staticBackdropLabel">Crack The Skye</h5>
+                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                           </div>
+                           <div class="modal-body">
+                             <ol>
+                               <li>"Oblivion" - 5:46</li>
+                               <li>"Divinations" - 3:38</li>
+                               <li>"Quintessence" - 5:27</li>
+                               <li>"Ghost of Karelia" Sanders 5:24</li>
+                               <li>"Crack the Skye" - 5:54</li>
+                               <li>"The Last Baron" - 13:00</li>
+                             </ol>
+                           </div>
+                           <div class="modal-footer">
+                             <button type="button" class="btn btn-outline-secondary btn-sm"
+                               data-bs-dismiss="modal">Close</button>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+          
+          </div>
+        </div>
+      </div>
+      <div class="music-card-thumb p-4 col-md-3 col-sm-6 col-xs-12">
+        <div class="card shadow-sm" style="width: 18rem;">
+          <img src="./assets/led zeppelin.jpeg" class="card-img-top" alt="house of the holy led zeppelin">
+          <div class="card-body">
+            <h2 class="card-title">LED ZEPPELIN</h2>
+            <p class="card-text">House of the Holy (1973)</p>
+
+                       <!-- Button trigger modal -->
+                       <button type="button" class="btn btn-outline-dark btn-sm" data-bs-toggle="modal"
+                       data-bs-target="#staticBackdrop">
+                       show album
+                     </button>
+         
+                     <!-- Modal -->
+                     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                       aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                       <div class="modal-dialog">
+                         <div class="modal-content">
+                           <div class="modal-header">
+                             <h5 class="modal-title" id="staticBackdropLabel">Crack The Skye</h5>
+                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                           </div>
+                           <div class="modal-body">
+                             <ol>
+                               <li>"Oblivion" - 5:46</li>
+                               <li>"Divinations" - 3:38</li>
+                               <li>"Quintessence" - 5:27</li>
+                               <li>"Ghost of Karelia" Sanders 5:24</li>
+                               <li>"Crack the Skye" - 5:54</li>
+                               <li>"The Last Baron" - 13:00</li>
+                             </ol>
+                           </div>
+                           <div class="modal-footer">
+                             <button type="button" class="btn btn-outline-secondary btn-sm"
+                               data-bs-dismiss="modal">Close</button>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+          
+
+          </div>
+        </div>
+      </div>
+      <div class="music-card-thumb p-4 col-md-3 col-sm-6 col-xs-12">
+        <div class="card shadow-sm" style="width: 18rem;">
+          <img src="./assets/raisedbyswans.jpeg" class="card-img-top" alt="no ghosless place raised by swans">
+          <div class="card-body">
+            <h2 class="card-title">RAISED BY SWANS</h2>
+            <p class="card-text">No Ghosless Place (2010)</p>
+
+                       <!-- Button trigger modal -->
+                       <button type="button" class="btn btn-outline-dark btn-sm" data-bs-toggle="modal"
+                       data-bs-target="#staticBackdrop">
+                       show album
+                     </button>
+         
+                     <!-- Modal -->
+                     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                       aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                       <div class="modal-dialog">
+                         <div class="modal-content">
+                           <div class="modal-header">
+                             <h5 class="modal-title" id="staticBackdropLabel">Crack The Skye</h5>
+                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                           </div>
+                           <div class="modal-body">
+                             <ol>
+                               <li>"Oblivion" - 5:46</li>
+                               <li>"Divinations" - 3:38</li>
+                               <li>"Quintessence" - 5:27</li>
+                               <li>"Ghost of Karelia" Sanders 5:24</li>
+                               <li>"Crack the Skye" - 5:54</li>
+                               <li>"The Last Baron" - 13:00</li>
+                             </ol>
+                           </div>
+                           <div class="modal-footer">
+                             <button type="button" class="btn btn-outline-secondary btn-sm"
+                               data-bs-dismiss="modal">Close</button>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
